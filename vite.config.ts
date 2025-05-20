@@ -6,13 +6,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  server: {
-    proxy: {
-      '/api': {
-        target: process.env.VERCEL_URL || 'http://localhost:3000',
-        changeOrigin: true,
-        secure: false,
-      },
-    },
-  },
+  build: {
+    outDir: 'dist',
+    sourcemap: true
+  }
 });

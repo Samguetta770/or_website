@@ -5,12 +5,11 @@ function Hero() {
     <div className="relative hero-overlay">
       <div className="relative">
         <img
-          src="/image_1.jpeg"
+          src="/orphoto.jpg"
           alt="קליניקה אסתטית"
           className="w-auto h-[80vh] object-cover mx-auto"
 />
         <div className="absolute inset-0 flex items-center justify-center">
-  <img src="/logo_or.jpeg" alt="Logo" className="w-32 h-32 object-contain" />
       </div>
       </div>
       <div className="absolute inset-0 flex items-center justify-center hero-content">
